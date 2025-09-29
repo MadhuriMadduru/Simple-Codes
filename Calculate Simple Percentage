@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    float total, obtained;
+    printf("Enter total marks and obtained marks: ");
+    scanf("%f %f", &total, &obtained);
+    printf("Percentage = %.2f%%\n", (obtained / total) * 100);
+    return 0;
+}
